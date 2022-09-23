@@ -20,8 +20,8 @@ We set up the data frame.
 ```{r setup-tibble}
 usernames <- c("wilsonamy", "dec2", "rujil", "benmitch311", "seancraigmile") #Extend if necessary
 nums <- c(18, 1, 5, 5, NA) #Extend if necessary
-colours <- c("powderblue", "green3", "colour 2", "colour 2", "colour 4") #Extend if necessary
-hobbies <- c("Hiking", "Swimming", "Hobby 2", "Hobby 3", "Hobby 4") #Extend if necessary
+colours <- c("powderblue", "green3", "colour 2", "colour 2", "tomato3") #Extend if necessary
+hobbies <- c("Hiking", "Swimming", "Hobby 2", "Hobby 3", "skiing") #Extend if necessary
 
 team_data <- tibble(username = usernames, die_roll = nums, colour = colours,
                     hobby = hobbies)
